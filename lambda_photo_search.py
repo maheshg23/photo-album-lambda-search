@@ -49,6 +49,7 @@ def lambda_handler(event, context):
     photos = []
     #res = clearIndices() used to clear indexes in ES
     #res = searchIndices() #used to check index
+    print("Update from Github");
     message = event["params"]["querystring"]["q"]
     resFromLex = sendToLex(message)
     search = prepareForSearch(resFromLex)

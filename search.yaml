@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: lambda_photo_search.lambda_handler
       Runtime: python3.7
-      CodeUri: s3://codepipeline-p1/fe06a88946d09f65ab17427496cb8ce3
+      CodeUri: ./
       Description: ''
       MemorySize: 128
       Timeout: 3
